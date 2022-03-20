@@ -5,10 +5,10 @@ public class Main {
         Scanner s = new Scanner(System.in);
         System.out.print("Введите сумму билета: ");
         int amount = s.nextInt();
-        System.out.println("Количество бонусных миль: " + HowManyMiles(amount));
+        System.out.println("Количество бонусных миль: " + howManyMiles(amount));
     }
 
-    private static int HowManyMiles(int amount) {
+    private static int howManyMiles(int amount) {
         return amount / 20;
     }
 }
